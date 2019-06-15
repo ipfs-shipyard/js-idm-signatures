@@ -1,6 +1,6 @@
 {
   "name": "idm-signatures",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Package to create and validate signatures made with IDM devices and sessions",
   "main": "lib/index.js",
   "module": "es/index.js",
