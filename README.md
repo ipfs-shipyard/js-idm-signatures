@@ -148,7 +148,7 @@ When called, it returns a Promise to an object with the following shape:
 }
 ```
 
-Note that the Promise will fail if any operation error occurs, such as if the DID Document was unable to be resolved. In these scenarios, the signature might either be valid or invalid.. it just happens that we were able to actually verify it.
+Note that the Promise will fail if any operational error occurs, such as if the DID Document was unable to be resolved. In these scenarios, the signature might either be valid or invalid.. it just happens that we were unable to actually verify it.
 
 
 ## Tests
