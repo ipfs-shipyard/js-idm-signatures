@@ -13,11 +13,10 @@
   },
   "keywords": [
     "did",
-    "resolver",
-    "ipid",
-    "ipfs",
-    "ipns",
-    "ipld"
+    "idm",
+    "sign",
+    "verify",
+    "signatures"
   ],
   "bugs": {
     "url": "https://github.com/ipfs-shipyard/js-idm-signatures/issues"
