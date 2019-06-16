@@ -48,7 +48,7 @@ To verify that a signature is valid:
 1. Fetch the DID Document associated with the `didUrl`
 2. Check if the public key reference in the `didUrl` fragment is present there
 3. Take the `publicExtendedKeyBase58` field of the public key and derive the child public key based on the `keyPath` (derivation path)
-4. Check if the signature matches the data (as defined in [RFC 6979](https://tools.ietf.org/html/rfc6979) with the derived child public key
+4. Check if the signature matches the data (as defined in [RFC 6979](https://tools.ietf.org/html/rfc6979)) with the derived child public key
 
 
 The `IdmSignature` scheme makes signatures compact as they don't contain the actual public key contents, even for signatures made with session keys. In the future, we will provide a binary format to make them even more compact.
